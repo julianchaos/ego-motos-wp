@@ -10,10 +10,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: egomotos
 */
 
+@import url('css/fonts/fonts.css');
+
 /* HEADER */
 header {
 	background-color: #00354E;
 	height: 44px;
+}
+header .container {
+	padding: 0;
 }
 header #headerimg,
 header .facebook-link {
