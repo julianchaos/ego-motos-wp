@@ -70,3 +70,24 @@ header .navbar-collapse li a {
 	font-family: 'BebasNeue';
 	padding-right: 0;
 }
+
+@media (min-width: 768px) {
+	.navbar-header {
+		float: none;
+	}
+	header .navbar-collapse {
+		width: auto;
+		background-color: transparent;
+		
+		top: -44px;
+		right: 44px;
+		position: relative;
+		
+		max-height: 44px;
+	}
+	.navbar-default .navbar-nav > li > a {
+		border-width: 0;
+		padding: 12px 0;
+		margin-right: 15px;
+	}
+}
