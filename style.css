@@ -91,3 +91,26 @@ header .navbar-collapse li a {
 		margin-right: 15px;
 	}
 }
+@media (min-width: 992px) {
+	header,
+	header #headerimg,
+	header #headerimg img {
+		height: 70px;
+	}
+	header .facebook-link {
+		margin-top: 11px;
+	}
+	header .facebook-link,
+	header .facebook-link img {
+		height: 49px;
+	}
+	
+	header .navbar-collapse {
+		top: -70px;
+	}
+	.navbar-default .navbar-nav > li > a {
+		font-size: 18px;
+		padding-top: 27px;
+		margin-right: 18px;
+	}
+}
