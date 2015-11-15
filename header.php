@@ -23,10 +23,14 @@
 						<div id="headerimg" class="navbar-brand">
 							<h1>
 								<a href="<?php echo home_url() ?>/" title="<?php bloginfo('name') ?>">
-									<img src="<?php bloginfo('template_directory') ?>/images/layout/logo-header.png" alt="<?php bloginfo('name') ?>" />
+									<img src="<?php bloginfo('template_directory') ?>/images/header/logo-egomotos.png" alt="<?php bloginfo('name') ?>" />
+									<img src="<?php bloginfo('template_directory') ?>/images/header/logo-suzuki.png" alt="<?php bloginfo('name') ?>" />
 								</a>
 							</h1>
 						</div>
+						<a href="https://www.facebook.com/EgoMotos" title="Facebook" class="facebook-link">
+							<img src="<?php bloginfo('template_directory') ?>/images/header/facebook.png" alt="Facebook" />
+						</a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
