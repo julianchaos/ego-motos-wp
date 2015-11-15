@@ -51,3 +51,22 @@ header .navbar-toggle {
 header .navbar-default .navbar-toggle .icon-bar {
 	background-color: #FFF;
 }
+
+header .navbar-collapse {
+	background-color: #2c3b42;
+	border-top-width: 0;
+	width: 88px;
+	float: right;
+}
+header .navbar-collapse #menu-menu-principal {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+header .navbar-collapse li.active {
+	background-color: #00354E;
+}
+header .navbar-collapse li a {
+	font-family: 'BebasNeue';
+	padding-right: 0;
+}
