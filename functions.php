@@ -20,6 +20,9 @@ function egomotos_scripts_styles() {
 
 	//Navbar-default overide
 	wp_enqueue_style( 'egomotos-nav', get_template_directory_uri() . '/css/navbar-default.css', array('egomotos-bootstrap'), '1.0');
+	
+	//Theme js scripts
+	wp_enqueue_script( 'egomotos-scripts', get_template_directory_uri() . '/js/main.js', array('jquery'));
 
 }
 add_action( 'wp_enqueue_scripts', 'egomotos_scripts_styles' );
