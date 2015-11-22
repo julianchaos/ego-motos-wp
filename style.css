@@ -16,6 +16,11 @@ Text Domain: egomotos
 header {
 	background-color: #00354E;
 	height: 44px;
+	
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 1;
 }
 header .container {
 	padding: 0;
