@@ -38,25 +38,34 @@ for ($i = 0; $i < count($sliderItens); $i++) {
 foreach($sliderItens as $i => $item)
 {
 	$active = $i === 0 ? "active" : null;
-	echo "<div class='item $active'>";
-		echo "<img src='{$item['img-mobile']}' alt='{$item['titulo']}' class='img-mobile' />";
-		echo "<img src='{$item['img-desktop']}' alt='{$item['titulo']}' class='img-desktop' />";
-		
-		echo "<div class='carousel-caption'>";
-		echo "</div>";
-	echo "</div>";
-}
 ?>
+		<div class='item <?php echo $active ?>'>
+			<img src='<?php echo $item['img-mobile'] ?>' alt='<?php echo $item['titulo'] ?>' class='img-mobile' />
+			<img src='<?php echo $item['img-desktop'] ?>' alt='<?php echo $item['titulo'] ?>' class='img-desktop' />
+		
+			<div class='carousel-caption'>
+				<h1><?php echo $item['titulo'] ?></h1>
+				<h4><?php echo $item['legenda'] ?></h4>
+				
+				<a href="<?php echo $item['link'] ?>">
+					<button type="button" class="btn btn-info btn-lg">
+						Veja mais
+					</button>
+				</a>
+			</div>
+		</div>
+<?php
+} ?>
 		</div>
 
 		<!-- Controls -->
-		<a class="left carousel-control" href="#carousel-main" role="button" data-slide="prev">
+		<!--<a class="left carousel-control" href="#carousel-main" role="button" data-slide="prev">
 			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 			<span class="sr-only">Previous</span>
 		</a>
 		<a class="right carousel-control" href="#carousel-main" role="button" data-slide="next">
 			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
-		</a>
+		</a>-->
 	</div>
 </section>

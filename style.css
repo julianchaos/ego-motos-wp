@@ -142,3 +142,46 @@ footer p {
 		margin-left: 15px;
 	}
 }
+
+
+/* HOME */
+/* Carousel */
+.home-carousel .carousel-caption {
+	font-family: 'BebasNeue';
+	text-align: left;
+	
+	right: 5%;
+	left: 5%;
+	top: 44px;
+}
+.home-carousel .carousel-caption a {
+	position: absolute;
+	bottom: 40px;
+}
+.home-carousel .carousel-caption button {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+@media (min-width: 768px) {
+	.home-carousel .carousel-caption a {
+		position: absolute;
+		bottom: 50px;
+	}
+}
+@media (min-width: 992px) {
+	.home-carousel .carousel-caption {
+		top: 88px;
+	}
+	.home-carousel .carousel-caption a {
+		position: relative;
+		bottom: 0;
+	}
+}
+@media (min-width: 1200px) {
+	.home-carousel .carousel-caption h1{
+		font-size: 42px;
+	}
+	.home-carousel .carousel-caption h4{
+		font-size: 22px;
+	}
+}
