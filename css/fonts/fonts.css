@@ -16,3 +16,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('roboto-medium/Roboto-Medium.eot?#iefix') format('embedded-opentype'),  url('roboto-medium/Roboto-Medium.woff') format('woff'), url('roboto-medium/Roboto-Medium.ttf')  format('truetype'), url('roboto-medium/Roboto-Medium.svg#Roboto-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

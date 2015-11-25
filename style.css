@@ -125,6 +125,7 @@ header .navbar-collapse li a {
 footer {
 	background-color: #172227;
 	padding: 7px 0;
+	margin-top: 100px;
 }
 footer p {
 	color: #FFF;
@@ -184,4 +185,54 @@ footer p {
 	.home-carousel .carousel-caption h4{
 		font-size: 22px;
 	}
+}
+
+/* Content */
+#home-content .moto {
+	display: block;
+	border-bottom: 7px solid #9f9f9f;
+	margin-top: 100px;
+}
+#home-content .moto:hover {
+	text-decoration: none;
+}
+#home-content .moto.super-sport:hover {
+	border-color: #28324e;
+}
+#home-content .moto.street:hover {
+	border-color: #2969b0;
+}
+#home-content .moto.couston:hover {
+	border-color: #553982;
+}
+#home-content .moto.dual-purpose:hover {
+	border-color: #3d8eb9;
+}
+#home-content .moto.scooter:hover {
+	border-color: #d14841;
+}
+#home-content .moto.conheca-linha {
+	border: 1px solid #e1e2e9;
+	padding: 72px 0;
+}
+#home-content .moto.conheca-linha h2 {
+	line-height: 47.917px;
+}
+
+#home-content .moto img {
+	width: 100%;
+	max-width: 500px;
+	display: block;
+	margin: 0 auto;
+}
+#home-content .moto h2 {
+	font-family: 'Roboto-Medium';
+	color: #9f9f9f;
+	font-size: 31.43px; /* Aproximação devido à substituição de fonte */
+	font-weight: 900;
+	line-height: 20px;
+	text-align: center;
+	
+	text-transform: uppercase;
+	margin: 0;
 }
