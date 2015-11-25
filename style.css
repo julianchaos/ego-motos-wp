@@ -236,3 +236,13 @@ footer p {
 	text-transform: uppercase;
 	margin: 0;
 }
+@media (min-width: 992px) {
+	#home-content .moto.conheca-linha {
+		padding: 56px 0;
+	}
+}
+@media (min-width: 1200px) {
+	#home-content .moto.conheca-linha {
+		padding: 76px 0;
+	}
+}
