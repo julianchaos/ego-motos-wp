@@ -286,3 +286,21 @@ footer p {
 		padding: 76px 0;
 	}
 }
+
+
+/* A EGO MOTOS */
+#ego-motos-content {
+	margin-top: 60px;
+}
+#ego-motos-content p {
+	color: #333;
+	font-family: 'Roboto-Medium';
+	font-size: 17px; /* Aproximação devido à substituição de fonte */
+	line-height: 34px; /* Aproximação devido à substituição de fonte */
+	margin-bottom: 45px;
+}
+@media (min-width: 992px) {
+	#ego-motos-content p {
+		font-size: 19px;
+	}
+}
