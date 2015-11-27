@@ -27,8 +27,29 @@ Text Domain: egomotos
     display: table;
 }
 #general-header > div > div {
-	display: table-cell;
-	vertical-align: middle;
+	font-family: 'Oswald-Regular';
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 35px; /* Aproximação devido à substituição de fonte */
+	
+	padding: 65px 12px 0;
+}
+@media (min-width: 768px) {
+	#general-header > div > div {
+		padding: 113px 40vw 0 12px;
+	}
+}
+@media (min-width: 992px) {
+	#general-header > div > div {
+		font-size: 62px;
+		padding-left: 120px;
+		padding-right: 120px;
+	}
+}
+@media (min-width: 1200px) {
+	#general-header > div > div {
+		padding-right: 150px;
+	}
 }
 
 /* HEADER */
