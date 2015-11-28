@@ -299,6 +299,32 @@ footer p {
 	line-height: 34px; /* Aproximação devido à substituição de fonte */
 	margin-bottom: 45px;
 }
+#ego-motos-content blockquote {
+	border-left-width: 0;
+	text-align: center;
+}
+	
+#ego-motos-content blockquote p{
+	font-size: 36.24px; 
+	line-height: 32px;
+	margin: 0;
+}
+#ego-motos-content blockquote:before,
+#ego-motos-content blockquote:after {
+	font-family: 'PlayfairDisplay-Bold';
+	color: #007fff;
+	font-size: 120.8px; /* Aproximação devido à substituição de fonte */
+	font-weight: 700;
+	line-height: 32px; /* Aproximação devido à substituição de fonte */
+	text-align: center;
+	transform: scaleX(1.0005); /* propriedades de largura e altura omitidas devido a transformação */
+}
+#ego-motos-content blockquote:before {
+	content: '“';
+}
+#ego-motos-content blockquote:after {
+	content: '„';
+}
 @media (min-width: 992px) {
 	#ego-motos-content p {
 		font-size: 19px;
