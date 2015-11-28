@@ -330,3 +330,10 @@ footer p {
 		font-size: 19px;
 	}
 }
+
+/* MODELOS */
+/* Destaque */
+.page-template-page-modelos #general-header > div > div {
+	color: #0d2f3e;
+	font-size: 50px;
+}
