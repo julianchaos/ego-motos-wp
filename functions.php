@@ -26,3 +26,5 @@ function egomotos_scripts_styles() {
 
 }
 add_action( 'wp_enqueue_scripts', 'egomotos_scripts_styles' );
+
+add_theme_support( 'post-thumbnails' );
