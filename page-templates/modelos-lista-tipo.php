@@ -14,8 +14,8 @@ $tipoMotoTitulo = array(
 if($query->have_posts())
 { ?>
 <div class="container <?= $tipoMotoSlug ?>">
+	<h2><?= $tipoMotoTitulo[$tipoMotoSlug] ?></h2>
 	<div class="row">
-		<h2 class="col-xs-12"><?= $tipoMotoTitulo[$tipoMotoSlug] ?></h2>
 
 <?php
 	while($query->have_posts())
