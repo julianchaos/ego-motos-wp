@@ -8,7 +8,10 @@ $query = new WP_Query(array(
 
 $tipoMotoTitulo = array(
 	'super-sport' => 'Super Sport',
-	'street' => 'Street'
+	'street' => 'Street',
+	'couston' => 'Couston',
+	'dual-purpose' => 'Dual Purpose',
+	'scooter' => 'Scooter'
 );
 
 if($query->have_posts())
@@ -23,7 +26,10 @@ if($query->have_posts())
 		$query->the_post(); ?>
 		
 		<div class="col-xs-12">
-			<?php the_title() ?>
+			<a href="javascript: void(0)">
+				<?php the_post_thumbnail() ?>
+				<p><?php the_title() ?></p>
+			</a>
 		</div>
 <?php		
 	}

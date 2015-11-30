@@ -350,3 +350,46 @@ footer p {
 	background: transparent url('images/modelos/linha.png') bottom left repeat-x;
 	padding-bottom: 21px;
 }
+.page-template-page-modelos #modelos-content img {
+	width: 100%;
+	height: auto;
+	max-width: 500px;
+	display: block;
+	margin: 0 auto;
+}
+.page-template-page-modelos #modelos-content p {
+	line-height: 25px; /* Aproximação devido à substituição de fonte */
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald-Regular';
+	font-weight: 700;
+	color: #afafaf;
+	font-size: 24px; /* Aproximação devido à substituição de fonte */
+	margin-top: 12px;
+	border-bottom: 6px solid #28324E;
+	padding-bottom: 20px;
+}
+.page-template-page-modelos .street h2 {
+	color: #2969b0;
+}
+.page-template-page-modelos #modelos-content .street p {
+	border-bottom-color: #2969b0;
+}
+.page-template-page-modelos .couston h2 {
+	color: #553982;
+}
+.page-template-page-modelos #modelos-content .couston p {
+	border-bottom-color: #553982;
+}
+.page-template-page-modelos .dual-purpose h2 {
+	color: #3d8eb9;
+}
+.page-template-page-modelos #modelos-content .dual-purpose p {
+	border-bottom-color: #3d8eb9;
+}
+.page-template-page-modelos .scooter h2 {
+	color: #d14841;
+}
+.page-template-page-modelos #modelos-content .scooter p {
+	border-bottom-color: #d14841;
+}
