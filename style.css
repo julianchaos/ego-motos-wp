@@ -357,6 +357,9 @@ footer p {
 	display: block;
 	margin: 0 auto;
 }
+.page-template-page-modelos #modelos-content a {
+	text-decoration: none;
+}
 .page-template-page-modelos #modelos-content p {
 	line-height: 25px; /* Aproximação devido à substituição de fonte */
 	text-align: center;
