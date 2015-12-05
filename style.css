@@ -396,3 +396,54 @@ footer p {
 .page-template-page-modelos #modelos-content .scooter p {
 	border-bottom-color: #d14841;
 }
+
+
+/* SEMINOVAS */
+/* Conteúdo */
+#seminovas-content h2 {
+	font-family: 'Oswald-Regular';
+	color: #606874;
+	font-size: 21.19px; /* Aproximação devido à substituição de fonte */
+	font-weight: 700;
+	line-height: 47.917px; /* Aproximação devido à substituição de fonte */
+	
+	text-transform: uppercase;
+	text-align: center;
+	background: transparent url('images/modelos/linha.png') bottom left repeat-x;
+}
+#seminovas-content .moto + .moto {
+	margin-top: 20px;
+}
+#seminovas-content .moto img {
+	width: 100%;
+	display: block;
+}
+#seminovas-content .seminova-info {
+	border: 2px solid #c2c2c2;
+	width: 245px;
+	margin: 0 auto;
+	
+	background: transparent url(images/seminovas/line.png) no-repeat;
+	background-position-x: center;
+	background-position-y: 90%;
+}
+#seminovas-content .seminova-info span {
+	color: #868686;
+	font-style: italic;
+	text-transform: uppercase;
+	line-height: 1em;
+	
+	display: block;
+	width: 185px;
+	margin: 0 auto;
+}
+#seminovas-content .seminova-info .titulo {
+	font-family: 'Oswald-Light';
+	font-size: 16.11px;
+	margin-top: 15px;
+}
+#seminovas-content .seminova-info .valor {
+	font-family: 'Oswald-Regular';
+	font-size: 25.77px;
+	margin-bottom: 13px;
+}
