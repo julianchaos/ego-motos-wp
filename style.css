@@ -447,3 +447,37 @@ footer p {
 	font-size: 25.77px;
 	margin-bottom: 13px;
 }
+
+
+/* OFICINA */
+.page-template-page-oficina #general-header > div {
+	display: table;
+}
+.page-template-page-oficina #general-header > div > div {
+	display: table-cell;
+	
+	font-size: 87.5px; /* Aproximação devido à substituição de fonte */
+	vertical-align: middle;
+}
+
+#oficina-content h2 {
+	font-family: 'Roboto-Medium';
+	color: #00354e;
+	font-size: 21.98px; /* Aproximação devido à substituição de fonte */
+	font-weight: 900;
+	line-height: 23px; /* Aproximação devido à substituição de fonte */
+
+	text-align: center;
+	text-transform: uppercase;
+	
+	border: 1px solid #172227;
+	padding: 15px 13px;
+	margin: 50px 0;
+}
+#oficina-content p {
+	font-family: 'Roboto-Medium';
+	color: #172227;
+	font-size: 13.4px; /* Aproximação devido à substituição de fonte */
+	line-height: 21px; /* Aproximação devido à substituição de fonte */
+}
+
