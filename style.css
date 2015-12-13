@@ -508,6 +508,37 @@ footer p {
 	font-family: 'Roboto-Medium';
 }
 
+/* Mapas */
+.contato-mapa {
+	width: 49.5%;
+	float: left;
+	
+	position: relative;
+}
+#contato-mapa-tijuca.contato-mapa {
+	float: right;
+}
+.contato-mapa iframe {
+	width: 100%;
+}
+.contato-mapa h2 {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 325px;
+	margin: 0;
+	
+	font-family: 'BebasNeue';
+	color: #ffffff;
+	font-size: 36.03px; /* Aproximação devido à substituição de fonte */
+	text-align: center;
+	
+	padding: 25px 0;
+	
+	position: absolute;
+	top: 0;
+}
+#contato-mapa-tijuca.contato-mapa h2 {
+	right: 0
+}
 /* Nossos Contatos */
 #contato-nossos-contatos {
 	min-height: 200px;
@@ -545,4 +576,9 @@ footer p {
 	font-family: 'Roboto-Light';
 	color: #484848;
 	font-size: 18.53px; /* Aproximação devido à substituição de fonte */
+}
+@media (min-width: 1200px) {
+	#contato-nossos-contatos {
+		margin-top: 50px;
+	}
 }
