@@ -481,3 +481,68 @@ footer p {
 	line-height: 21px; /* Aproximação devido à substituição de fonte */
 }
 
+
+/* CONTATO */
+.page-template-page-contato #general-header > div {
+	display: table;
+}
+.page-template-page-contato #general-header > div > div {
+	display: table-cell;
+	
+	vertical-align: middle;
+	text-align: center;
+	padding: 0;
+}
+
+.page-template-page-contato h2 {
+	font-family: 'Roboto-Light';
+	color: #484848;
+	font-size: 22.59px; /* Aproximação devido à substituição de fonte */
+	line-height: 18px; /* Aproximação devido à substituição de fonte */
+	text-align: center;
+	
+	text-transform: uppercase;
+	/*margin-bottom: 50px;*/
+}
+.page-template-page-contato h2 span {
+	font-family: 'Roboto-Medium';
+}
+
+/* Nossos Contatos */
+#contato-nossos-contatos {
+	min-height: 200px;
+	
+	margin-top: 100px;
+	padding-top: 30px;
+	background: transparent url(images/contato/nossos-contatos-bg.png) no-repeat center 0;
+}
+
+.nossos-contatos-item {
+	margin-top: 50px;
+}
+.nossos-contatos-item > img {
+	display: block;
+	width: 75px;
+	height: auto;
+	margin: 0 auto;
+}
+.nossos-contatos-item > h3 {
+	font-family: 'Roboto-Medium';
+	color: #484848;
+	font-size: 23.92px; /* Aproximação devido à substituição de fonte */
+	line-height: 18px; /* Aproximação devido à substituição de fonte */
+	text-align: center;
+	margin-bottom: 30px;
+}
+.nossos-contatos-item > p {
+	font-family: 'Roboto-Medium';
+	color: #7c7770;
+	font-size: 16.15px; /* Aproximação devido à substituição de fonte */
+	line-height: 22px; /* Aproximação devido à substituição de fonte */
+	text-align: center;
+}
+.nossos-contatos-item > p span {
+	font-family: 'Roboto-Light';
+	color: #484848;
+	font-size: 18.53px; /* Aproximação devido à substituição de fonte */
+}
