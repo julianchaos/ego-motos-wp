@@ -541,8 +541,6 @@ footer p {
 }
 /* Nossos Contatos */
 #contato-nossos-contatos {
-	min-height: 200px;
-	
 	margin-top: 100px;
 	padding-top: 30px;
 	background: transparent url(images/contato/nossos-contatos-bg.png) no-repeat center 0;
@@ -580,5 +578,47 @@ footer p {
 @media (min-width: 1200px) {
 	#contato-nossos-contatos {
 		margin-top: 50px;
+	}
+}
+
+/* Formulário de contato */
+#contato-formulario-contato {
+	margin-top: 100px;
+	padding-top: 30px;
+	background: transparent url(images/contato/formulario-contato-bg.png) no-repeat center 0;
+}
+#contato-formulario-contato form {
+	margin-top: 40px;
+}
+#contato-formulario-contato input[type="text"],
+#contato-formulario-contato input[type="email"],
+#contato-formulario-contato textarea {
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+	background-color: #f5f5f5;
+	margin-top: 10px;
+	padding: 12px;
+	width: 100%;
+	max-width: 100%;
+	
+	font-family: 'Roboto-Light';
+	font-size: 14px;
+	line-height: 20px;
+}
+#contato-formulario-contato input[type="submit"] {
+	width: 100%;
+	background-color: #172227;
+
+	font-family: 'Roboto-Medium';
+	color: #ffffff;
+	font-size: 16.94px; /* Aproximação devido à substituição de fonte */
+	line-height: 18px; /* Aproximação devido à substituição de fonte */
+	text-align: center;
+	text-transform: uppercase;
+}
+@media (min-width: 768px) {
+	#contato-formulario-contato .col-xs-12 .col-xs-12 {
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 }
