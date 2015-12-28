@@ -562,6 +562,7 @@ footer p {
 	line-height: 18px; /* Aproximação devido à substituição de fonte */
 	text-align: center;
 	margin-bottom: 30px;
+	min-height: 36px;
 }
 .nossos-contatos-item > p {
 	font-family: 'Roboto-Medium';
