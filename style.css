@@ -609,6 +609,7 @@ footer p {
 #contato-formulario-contato input[type="submit"] {
 	width: 100%;
 	background-color: #172227;
+	margin-top: 5px;
 
 	font-family: 'Roboto-Medium';
 	color: #ffffff;
@@ -616,6 +617,9 @@ footer p {
 	line-height: 18px; /* Aproximação devido à substituição de fonte */
 	text-align: center;
 	text-transform: uppercase;
+}
+#contato-formulario-contato .wpcf7-response-output {
+	clear: both;
 }
 @media (min-width: 768px) {
 	#contato-formulario-contato .col-xs-12 .col-xs-12 {
