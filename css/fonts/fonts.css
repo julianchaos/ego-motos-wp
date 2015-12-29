@@ -12,6 +12,12 @@
 
 
 @font-face {
+  font-family: 'Oswald-Bold';
+  src: url('oswald-bold/Oswald-Bold.eot?#iefix') format('embedded-opentype'),  url('oswald-bold/Oswald-Bold.woff') format('woff'), url('oswald-bold/Oswald-Bold.ttf')  format('truetype'), url('oswald-bold/Oswald-Bold.svg#Oswald-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Oswald-Light';
   src: url('oswald-light/Oswald-Light.eot?#iefix') format('embedded-opentype'),  url('oswald-light/Oswald-Light.woff') format('woff'), url('oswald-light/Oswald-Light.ttf')  format('truetype'), url('oswald-light/Oswald-Light.svg#Oswald-Light') format('svg');
   font-weight: normal;
