@@ -528,6 +528,10 @@ footer p {
 	font-size: 13.4px; /* Aproximação devido à substituição de fonte */
 	line-height: 21px; /* Aproximação devido à substituição de fonte */
 }
+#oficina-content a {
+	color: #00354e;
+	text-decoration: underline;
+}
 
 
 /* CONTATO */
