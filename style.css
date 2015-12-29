@@ -435,6 +435,8 @@ footer p {
 #modelo-animacao .animacao-imagens > img {
 	display: none;
 	width: 100%;
+	max-width: 768px;
+	margin: 0 auto;
 }
 #modelo-animacao .animacao-imagens > img.active {
 	display: block;
@@ -465,6 +467,18 @@ footer p {
 }
 #modelo-animacao .animacao-cores a.active {
 	border-color: #007fff;
+}
+@media(min-width: 1200px){
+	#modelo-animacao .animacao-container {
+		position: relative;
+	}
+	#modelo-animacao .animacao-cores {
+		position: absolute;
+		right: 0;
+		top: 50%;
+		width: 186px;
+		text-align: left;
+	}
 }
 
 
