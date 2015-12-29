@@ -26,7 +26,7 @@ if($query->have_posts())
 		$query->the_post(); ?>
 		
 		<div class="col-xs-12 col-sm-6 col-md-4">
-			<a href="javascript: void(0)">
+			<a href="<?php echo post_permalink() ?>">
 				<?php the_post_thumbnail() ?>
 				<p><?php the_title() ?></p>
 			</a>
