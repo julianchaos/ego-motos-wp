@@ -14,6 +14,9 @@
 				set_query_var( 'unidade', 'tijuca' );
 				get_template_part('page-templates/seminovas', 'lista-motos');
 ?>
+				<div class="informacoes">
+					<a href="contato">Entre em contato<br/>para mais informações</a>
+				</div>
 			</div>
 		</div>
 	</div>

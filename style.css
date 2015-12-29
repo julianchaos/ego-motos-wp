@@ -482,6 +482,19 @@ footer p {
 	font-size: 25.77px;
 	margin-bottom: 13px;
 }
+#seminovas-content .informacoes {
+	border: 3px solid #dae3e5;
+	width: 245px;
+	margin: 20px auto 0;
+	padding: 85px 12px;
+}
+#seminovas-content .informacoes a {
+	font-family: 'Oswald-Bold';
+	color: #606874;
+	font-size: 20px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
 
 
 /* OFICINA */
