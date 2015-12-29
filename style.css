@@ -431,6 +431,42 @@ footer p {
 	}
 }
 
+/* Animação */
+#modelo-animacao .animacao-imagens > img {
+	display: none;
+	width: 100%;
+}
+#modelo-animacao .animacao-imagens > img.active {
+	display: block;
+}
+#modelo-animacao .animacao-cores {
+	text-align: center;
+}
+#modelo-animacao .animacao-cores p {
+	margin: 0;
+	font-size: 11px;
+}
+#modelo-animacao .animacao-cores a span {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px; 
+}
+#modelo-animacao .animacao-cores a {
+	display: inline-block;
+	border: 1px solid #e6e6e6;
+	padding: 2px;
+	height: 22px;
+	width: 22px;
+	border-radius: 11px;
+}
+#modelo-animacao .animacao-cores a + a {
+	margin-left: 5px;
+}
+#modelo-animacao .animacao-cores a.active {
+	border-color: #007fff;
+}
+
 
 /* SEMINOVAS */
 /* Destaque */
