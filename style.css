@@ -399,6 +399,41 @@ footer p {
 
 
 /* SEMINOVAS */
+/* Destaque */
+.page-template-page-seminovas #general-header > div > div {
+	border: 3px solid #dae3e5;
+	padding: 35px 7px;
+	margin: 65px 5px 5px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 35px;
+	
+	max-width: 368px;
+}
+.page-template-page-seminovas #general-header > div > div span {
+	font-size: 62px;
+	line-height: 62px;
+}
+@media (min-width: 768px) {
+	.page-template-page-seminovas #general-header > div {
+		position: relative
+	}
+	.page-template-page-seminovas #general-header > div > div {
+		position: absolute;
+		right: 20px;
+		bottom: 50px;
+	}
+}
+@media (min-width: 992px) {
+	.page-template-page-seminovas #general-header > div > div {
+		font-size: 50px;
+		max-width: 520px;
+	}
+	.page-template-page-seminovas #general-header > div > div span {
+		font-size: 88px;
+		line-height: 100px;
+	}
+}
 /* Conteúdo */
 #seminovas-content h2 {
 	font-family: 'Oswald-Regular';
