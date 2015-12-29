@@ -398,6 +398,40 @@ footer p {
 }
 
 
+/* MODELOS SINGLE */
+/* Header */
+#modelo-header {
+	padding-top: 44px;
+	text-align: center;
+}
+#modelo-header img {
+	margin: 15px;
+}
+#modelo-header p {
+	font-family: 'Oswald-Regular';
+	color: #2d3e52;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: left;
+}
+@media (min-width: 768px) {
+	#modelo-header {
+		padding-top: 70px;
+	}
+	#modelo-header img {
+		float: left;
+	}
+	#modelo-header p {
+		margin: 15px;
+	}
+}
+@media (min-width: 992px) {
+	#modelo-header {
+		padding-top: 100px;
+	}
+}
+
+
 /* SEMINOVAS */
 /* Destaque */
 .page-template-page-seminovas #general-header > div > div {
