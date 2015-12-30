@@ -31,5 +31,12 @@ jQuery(function(){
 		jQuery('#'+modeloIndex).addClass('active');
 	});
 	
-	
+	//Carrossel de imagens na página single de modelos
+	jQuery('#modelo-fotos-carousel').owlCarousel({
+		itemsMobile: [768,3]
+	});
+	jQuery('#modelo-fotos-carousel').magnificPopup({
+		delegate: 'a',
+		type: 'image'
+	});
 });

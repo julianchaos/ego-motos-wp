@@ -26,6 +26,14 @@ function egomotos_scripts_styles() {
 	wp_enqueue_style( 'egomotos-owl-carousel', $owlCarouselFolder . "owl.carousel.css", array(), '1.3.3');
 	wp_enqueue_style( 'egomotos-owl-carousel-theme', $owlCarouselFolder . "owl.theme.css", array('egomotos-owl-carousel'), '1.3.3');
 	wp_enqueue_script( 'egomotos-owl-carousel', $owlCarouselFolder . "owl.carousel.min.js", array('jquery'), '1.3.3', false);
+	
+	/*
+	 * Magnific Popup
+	 * url: http://dimsemenov.com/plugins/magnific-popup/
+	 */
+	$magnificFolder = get_template_directory_uri() . "/js/Magnific-Popup-master/dist/";
+	wp_enqueue_style( 'egomotos-magnific-popup', $magnificFolder . "magnific-popup.css", array(), '1.0.1');
+	wp_enqueue_script( 'egomotos-magnific-popup', $magnificFolder . 'jquery.magnific-popup.min.js', array('jquery'), '1.0.1', true);
 
 	//Navbar-default overide
 	wp_enqueue_style( 'egomotos-nav', get_template_directory_uri() . '/css/navbar-default.css', array('egomotos-bootstrap'), '1.0');
