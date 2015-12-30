@@ -33,10 +33,13 @@ jQuery(function(){
 	
 	//Carrossel de imagens na página single de modelos
 	jQuery('#modelo-fotos-carousel').owlCarousel({
-		navigation: true,
-		navigationText: false,
-		pagination: false,
-		itemsMobile: [768,3]
+		items: 5,
+		margin: 5,
+		loop: true,
+		autoWidth: true,
+		nav: true,
+		navText: false,
+		dots: false
 	});
 	jQuery('#modelo-fotos-carousel').magnificPopup({
 		delegate: 'a',

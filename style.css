@@ -481,6 +481,46 @@ footer p {
 	}
 }
 
+/* Fotos */
+#modelo-fotos {
+	margin-top: 45px;
+}
+#modelo-fotos-carousel {
+	position: relative;
+	max-width: 460px;
+	margin: 0 auto;
+}
+#modelo-fotos-carousel .owl-stage-outer {
+	z-index: 1;
+	margin-left: 38px;
+	margin-right: 38px;
+}
+#modelo-fotos-carousel .owl-stage-outer a > img {
+	max-height: 55px;
+	width: auto;
+}
+#modelo-fotos-carousel .owl-controls {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#modelo-fotos-carousel .owl-controls .owl-prev,
+#modelo-fotos-carousel .owl-controls .owl-next {
+	height: 55px;
+	width: 38px;
+	top: 0;
+	position: absolute;
+}
+#modelo-fotos-carousel .owl-controls .owl-prev {
+	background: transparent url(images/modelos-single/carousel-prev.png) no-repeat 0 50%;
+}
+#modelo-fotos-carousel .owl-controls .owl-next {
+	right: 0;
+	background: transparent url(images/modelos-single/carousel-next.png) no-repeat 100% 50%;
+}
+
 
 /* SEMINOVAS */
 /* Destaque */

@@ -8,7 +8,7 @@ while( have_rows('imagens_slider'))
 {
 	the_row();
 	$imagem = get_sub_field('imagem');
-	$thumbnail = $imagem['sizes']['thumbnail'];
+	$thumbnail = $imagem['sizes']['medium'];
 	$link = $imagem['url'];
 ?>
 					<a href="<?= $link ?>">
