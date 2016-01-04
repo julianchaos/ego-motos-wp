@@ -544,6 +544,25 @@ footer p {
 #modelo-video .btn-container a.btn-ver-depois {
 	background-image: url(images/modelos-single/btn-ver-depois.png);
 }
+@media (min-width: 768px) {
+	#modelo-video .video-container {
+		position: relative;
+		max-width: 768px;
+		margin: 0 auto;
+	}
+	#modelo-video .btn-container {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 130px;
+	}
+	#modelo-video .btn-container a {
+		float: none;
+		height: 33.33%;
+		width: 130px;
+	}
+}
 
 /* SEMINOVAS */
 /* Destaque */
