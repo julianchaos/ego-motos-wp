@@ -521,6 +521,29 @@ footer p {
 	background: transparent url(images/modelos-single/carousel-next.png) no-repeat 100% 50%;
 }
 
+/* Formulário Cotação */
+
+/* Vídeo */
+#modelo-video .video-container iframe {
+	width: 100%;
+	display: block;
+}
+#modelo-video .btn-container {
+	background-color: #172227;
+}
+#modelo-video .btn-container a {
+	display: block;
+	min-height: 50px;
+	background: #172227 url(images/modelos-single/btn-curtir.png) scroll no-repeat 50% 50%;
+	width: 33.33%;
+	float: left;
+}
+#modelo-video .btn-container a.btn-compartilhar {
+	background-image: url(images/modelos-single/btn-compartilhar.png);
+}
+#modelo-video .btn-container a.btn-ver-depois {
+	background-image: url(images/modelos-single/btn-ver-depois.png);
+}
 
 /* SEMINOVAS */
 /* Destaque */
