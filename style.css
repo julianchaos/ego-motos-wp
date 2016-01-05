@@ -726,6 +726,69 @@ footer p {
 	}
 }
 
+/* Footer Modelo */
+#modelo-footer #modelo-footer-links,
+#modelo-footer #modelo-footer-local {
+	margin-top: 12px;
+}
+#modelo-footer #modelo-footer-links a,
+#modelo-footer #modelo-footer-local > div {
+	display: block;
+	line-height: 27px;
+	font-family: 'Roboto-Regular';
+	font-size: 10.38px; /* Aproximação devido à substituição de fonte */
+	text-align: center;
+	text-transform: uppercase;
+}
+#modelo-footer #modelo-footer-links .release,
+#modelo-footer #modelo-footer-local > div {
+	background-color: #273a43;
+	color: #fefefe;
+}
+#modelo-footer #modelo-footer-links .acessorios {
+	border: 3px solid #dae3e5;
+	color: #273a43;
+	line-height: 21px;
+	margin-top: 5px;
+}
+
+#modelo-footer #modelo-footer-local > div {
+	margin-top: 5px;
+	border-left: 5px solid #999;
+}
+#modelo-footer #modelo-footer-local > div.super-sport {
+	border-color: #28324e;
+}
+#modelo-footer #modelo-footer-local > div.street {
+	border-color: #2969b0;
+}
+#modelo-footer #modelo-footer-local > div.couston {
+	border-color: #553982;
+}
+#modelo-footer #modelo-footer-local > div.dual-purpose {
+	border-color: #3d8eb9;
+}
+#modelo-footer #modelo-footer-local > div.scooter {
+	border-color: #d14841;
+}
+@media (min-width: 768px) {
+	#modelo-footer #modelo-footer-links a,
+	#modelo-footer #modelo-footer-local div {
+		float: left;
+		padding: 0 5px;
+	}
+	#modelo-footer #modelo-footer-links a.acessorios {
+		margin: 0 0 0 10px;
+	}
+	#modelo-footer #modelo-footer-local div {
+		min-width: 110px;
+	}
+	#modelo-footer #modelo-footer-local div + div {
+		margin-left: 10px;
+	}
+	
+}
+
 /* SEMINOVAS */
 /* Destaque */
 .page-template-page-seminovas #general-header > div > div {
