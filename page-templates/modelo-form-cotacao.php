@@ -3,8 +3,12 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<div>
-					<a href="javascript: void(0)" class="btn-cotacao">Faça sua cotação</a>
+					<a href="#form-cotacao-popup" class="btn-cotacao open-popup-link">Faça sua cotação</a>
+					<div id="form-cotacao-popup" class="mfp-hide white-popup-block">
+						teste
+					</div>
 				</div>
+				
 			</div>
 		</div>
 	</div>

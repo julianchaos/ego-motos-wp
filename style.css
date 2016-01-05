@@ -551,6 +551,23 @@ footer p {
 	}
 }
 
+#form-cotacao-popup {
+	background-color: #FFF;
+	border: 10px solid #0e112a;
+}
+#form-cotacao-popup button.mfp-close {
+	color: #FFF;
+	background-color: #3f67c0;
+	font-size: 60px;
+	opacity: 1;
+	
+	border-radius: 35px;
+	height: 70px;
+	width: 70px;
+	margin-top: -15px;
+	margin-right: -15px;
+}
+
 /* Vídeo */
 #modelo-video {
 	margin-top: 30px;
