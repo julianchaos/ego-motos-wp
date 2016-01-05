@@ -606,6 +606,34 @@ footer p {
 	font-size: 17px;
 	font-weight: normal;
 }
+@media (min-width: 768px) {
+	#form-cotacao-popup {
+		max-width: 728px;
+		padding-bottom: 30px;
+	}
+	#form-cotacao-popup h3 {
+		clear: both;
+	}
+	#form-cotacao-popup label {
+		float: left;
+	}
+	#form-cotacao-popup label,
+	#form-cotacao-popup input[type=submit]{
+		width: 33.33%;
+		padding: 0 5px;
+	}
+	#form-cotacao-popup .info-veiculo label,
+	#form-cotacao-popup .info-financiamento label:nth-of-type(3) {
+		width: 66.66%;
+	}
+	#form-cotacao-popup .info-financiamento label:nth-of-type(3),
+	#form-cotacao-popup .info-pessoal label:nth-of-type(4) {
+		clear: left;
+	}
+	#form-cotacao-popup .submit {
+		clear: both;
+	}
+}
 
 /* Vídeo */
 #modelo-video {
