@@ -15,3 +15,10 @@
 		</div>
 	</div>
 </section>
+<script type="text/javascript">
+	jQuery(function(){
+		jQuery('input[name=modelo]').val('<?php the_title() ?>');
+		jQuery('input[name=pessoal-tel]').mask('(00) 0000-00000');
+		jQuery('input[name=financiamento-entrada]').mask('000.000.000,00', {reverse: true});
+	});
+</script>

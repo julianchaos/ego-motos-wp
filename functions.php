@@ -10,6 +10,12 @@ add_action( 'after_setup_theme', 'register_my_menu' );
 function egomotos_scripts_styles() {
 	//jQuery
 	wp_enqueue_script( 'jquery');
+	
+	/*
+	 * jQuery Mask Plugin
+	 * url: https://igorescobar.github.io/jQuery-Mask-Plugin/
+	 */
+	wp_enqueue_script('egomotos-jquery-mask', get_template_directory_uri() . '/js/jQuery-Mask-Plugin-master/src/jquery.mask.js', array('jquery'), '1.13.4', false);
 
 	/*
 	 * Bootstrap
