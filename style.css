@@ -522,8 +522,39 @@ footer p {
 }
 
 /* Formulário Cotação */
+#modelo-form-cotacao .col-xs-12 > div {
+	max-width: 768px;
+	margin: 0 auto;
+	
+}
+#modelo-form-cotacao a.btn-cotacao {
+	background-color: #3f67c0;
+	border: 10px solid #0e112a;
+	color: #ffffff;
+	display: block;
+	float: right;
+	font-family: 'Roboto-Medium';
+	font-size: 20.2px; /* Aproximação devido à substituição de fonte */
+	line-height: 52px;
+	max-width: 300px;
+	padding: 0 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#modelo-form-cotacao a.btn-cotacao:active,
+#modelo-form-cotacao a.btn-cotacao:hover {
+	text-decoration: none;
+}
+@media (min-width: 330px) {
+	#modelo-form-cotacao a.btn-cotacao {
+		float: right;
+	}
+}
 
 /* Vídeo */
+#modelo-video {
+	margin-top: 30px;
+}
 #modelo-video .video-container iframe {
 	width: 100%;
 	display: block;
