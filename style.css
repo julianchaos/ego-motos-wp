@@ -888,6 +888,27 @@ footer p {
 }
 
 
+/* ACESSÓRIOS */
+.page-template-page-acessorios #general-header > div > div {
+	font-size: 30px;
+	max-width: 320px;
+	position: absolute;
+	right: 0;
+}
+@media (min-width: 768px) {
+	.page-template-page-acessorios #general-header > div > div {
+		padding-right: 12px;
+		padding-top: 65px;
+	}
+}
+@media (min-width: 992px) {
+	.page-template-page-acessorios #general-header > div > div {
+		max-width: 620px;
+		padding-left: 12px;
+		padding-top: 200px;
+		
+	}
+}
 /* OFICINA */
 .page-template-page-oficina #general-header > div {
 	display: table;
