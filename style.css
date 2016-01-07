@@ -889,6 +889,7 @@ footer p {
 
 
 /* ACESSÓRIOS */
+/* Destaque */
 .page-template-page-acessorios #general-header > div > div {
 	font-size: 30px;
 	max-width: 320px;
@@ -909,6 +910,61 @@ footer p {
 		
 	}
 }
+/* Conteúdo */
+#acessorios-content h2 {
+	background: transparent url(images/acessorios/linha.png) scroll repeat-x left bottom;
+	color: #273a43;
+	font-family: 'Roboto-Medium';
+	font-size: 19.74px; /* Aproximação devido à substituição de fonte */
+	padding-bottom: 20px;
+}
+#acessorios-content .acessorio-item-container {
+	margin: 50px auto 0;
+	width: 290px;
+}
+#acessorios-content .acessorio-item-detalhes h3 {
+	color: #464646;
+	font-family: 'Roboto-Medium';
+	font-size: 19.39px; /* Aproximação devido à substituição de fonte */
+	line-height: 20px; /* Aproximação devido à substituição de fonte */
+	margin-top: 20px;
+}
+#acessorios-content .acessorio-item-detalhes p {
+	background: transparent url(images/acessorios/tag.png) scroll no-repeat left center;
+	color: #969697;
+	font-family: 'Roboto-Medium';
+	font-size: 15.79px; /* Aproximação devido à substituição de fonte */
+	padding-left: 30px;
+}
+@media (min-width: 600px) {
+	#acessorios-content .acessorio-item-container {
+		float:left;
+		width: 50%;
+		
+	}
+	#acessorios-content .acessorio-item {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+	#acessorios-content .acessorio-item img {
+		height: auto;
+		width: 100%;
+	}
+}
+@media (min-width: 992px) {
+	#acessorios-content .acessorio-item-container {
+		width: 33.33%;
+	}
+}
+@media (min-width: 1200px) {
+	#acessorios-content .acessorio-item-container {
+		width: 25%;
+	}
+	#acessorios-content .acessorio-item {
+		padding: 0 5px;
+	}
+}
+
 /* OFICINA */
 .page-template-page-oficina #general-header > div {
 	display: table;
