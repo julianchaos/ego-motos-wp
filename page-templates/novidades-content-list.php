@@ -45,6 +45,7 @@ echo paginate_links( array(
 	'current' => max( 1, get_query_var('paged') ),
 	'prev_text' => '<',
 	'next_text' => '>',
-	'total' => $the_query->max_num_pages
+	'total' => $the_query->max_num_pages,
+	'type' => 'list'
 ));
 echo "</div>";
