@@ -57,4 +57,11 @@ jQuery(function(){
 	// Máscaras no formulário de cotação
 	jQuery('input[name=pessoal-tel]').mask('(00) 0000-00000');
 	jQuery('input[name=financiamento-entrada]').mask('000.000.000,00', {reverse: true});
+	
+	// Masonry na lista de novidades
+	jQuery('.masonry-grid').masonry({
+		itemSelector: '.item-container',
+		
+		percentPosition: true
+	});
 });
