@@ -396,6 +396,12 @@ footer p {
 .page-template-page-modelos #modelos-content .scooter p {
 	border-bottom-color: #d14841;
 }
+@media (min-width: 768px) {
+	.page-template-page-modelos #modelos-content img {
+		width: auto;
+		max-height: 200px;
+	}
+}
 
 
 /* MODELOS SINGLE */
