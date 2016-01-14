@@ -59,9 +59,12 @@ jQuery(function(){
 	jQuery('input[name=financiamento-entrada]').mask('000.000.000,00', {reverse: true});
 	
 	// Masonry na lista de novidades
-	jQuery('.masonry-grid').masonry({
+	var $grid = jQuery('.masonry-grid').masonry({
 		itemSelector: '.item-container',
 		
 		percentPosition: true
+	});
+	$grid.imagesLoaded().progress( function() {
+		$grid.masonry('layout');
 	});
 });
