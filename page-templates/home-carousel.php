@@ -39,10 +39,7 @@ foreach($sliderItens as $i => $item)
 {
 	$active = $i === 0 ? "active" : null;
 ?>
-		<div class='item <?php echo $active ?>'>
-			<img src='<?php echo $item['img-mobile'] ?>' alt='<?php echo $item['titulo'] ?>' class='img-mobile' />
-			<img src='<?php echo $item['img-desktop'] ?>' alt='<?php echo $item['titulo'] ?>' class='img-desktop' />
-		
+		<div class='item <?php echo $active ?>' style="background-image: url(<?php echo $item['img-desktop'] ?>)">
 			<div class='carousel-caption'>
 				<h1><?php echo $item['titulo'] ?></h1>
 				<h4><?php echo $item['legenda'] ?></h4>

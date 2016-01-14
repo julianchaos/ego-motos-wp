@@ -1,6 +1,7 @@
 <?php
-$pageEncodedUrl = urlencode(get_permalink());
-$sharerUrl = "https://www.facebook.com/dialog/share?app_id=1538517343132107&display=popup&href=$pageEncodedUrl&redirect_uri=$pageEncodedUrl";
+if(get_field('video_embed') !== '') {
+	$pageEncodedUrl = urlencode(get_permalink());
+	$sharerUrl = "https://www.facebook.com/dialog/share?app_id=1538517343132107&display=popup&href=$pageEncodedUrl&redirect_uri=$pageEncodedUrl";
 ?>
 <section id="modelo-video">
 	<div class="container">
@@ -18,3 +19,5 @@ $sharerUrl = "https://www.facebook.com/dialog/share?app_id=1538517343132107&disp
 		</div>
 	</div>
 </section>
+<?php
+}

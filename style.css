@@ -14,7 +14,7 @@ Text Domain: egomotos
 
 /* General */
 #general-header {
-	height: 100vh;
+	height: 80vh;
 	opacity: 1;
 	transform: translateY(0px) scale(1);
 	background-size: cover;
@@ -67,7 +67,7 @@ header .container {
 }
 header #headerimg,
 header .facebook-link {
-	height: 44px;
+	height: 43px;
 	padding: 0;
 	overflow: hidden;
 }
@@ -142,6 +142,10 @@ header .navbar-collapse li a {
 	header #headerimg img {
 		height: 70px;
 	}
+	header #headerimg,
+	header #headerimg img {
+		height: 69px;
+	}
 	header .facebook-link {
 		margin-top: 11px;
 	}
@@ -187,6 +191,14 @@ footer p {
 
 /* HOME */
 /* Carousel */
+.home-carousel .item {
+	opacity: 1;
+    transform: translateY(0px) scale(1);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+	height: 80vh;
+}
 .home-carousel .carousel-caption {
 	font-family: 'BebasNeue';
 	text-align: left;
@@ -818,7 +830,7 @@ footer p {
 	.page-template-page-seminovas #general-header > div > div {
 		position: absolute;
 		right: 20px;
-		bottom: 50px;
+		bottom: 25%;
 	}
 }
 @media (min-width: 992px) {
@@ -891,6 +903,15 @@ footer p {
 	font-size: 20px;
 	line-height: 25px;
 	text-transform: uppercase;
+}
+@media (min-width: 768px) {
+	#seminovas-content .moto img {
+		width: auto;
+		height: auto;
+		max-width: 500px;
+		max-height: 200px;
+		margin: 20px auto 12px;
+	}
 }
 
 
