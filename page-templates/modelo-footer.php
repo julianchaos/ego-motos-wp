@@ -11,8 +11,10 @@ $tipoMoto = array(
 	<div class="container">
 		<div class="row">
 			<div id="modelo-footer-links" class="col-xs-12 col-md-4">
-				<a href="<?php the_field('release') ?>" target="_blank" class="release">Download Release</a>
-				<a href="javascript: void(0)" class="acessorios">Peças e Acessórios</a>
+				<?php if(get_field('release')) { ?>
+					<a href="<?php the_field('release') ?>" target="_blank" class="release">Download Release</a>
+				<?php } ?>
+				<a href="<?php echo esc_url(home_url('acessorios')) ?>" class="acessorios">Peças e Acessórios</a>
 			</div>
 			<div id="modelo-footer-local" class="col-xs-12 col-md-7 col-md-offset-1">
 				<div>Você Está em</div>
