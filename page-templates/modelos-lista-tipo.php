@@ -16,7 +16,7 @@ $tipoMotoTitulo = array(
 
 if($query->have_posts())
 { ?>
-<div class="container <?= $tipoMotoSlug ?>">
+<div class="container <?= $tipoMotoSlug ?>" name="<?= $tipoMotoSlug ?>" id="<?= $tipoMotoSlug ?>">
 	<h2><?= $tipoMotoTitulo[$tipoMotoSlug] ?></h2>
 	<div class="row">
 
