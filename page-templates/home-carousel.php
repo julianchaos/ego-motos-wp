@@ -39,18 +39,12 @@ foreach($sliderItens as $i => $item)
 {
 	$active = $i === 0 ? "active" : null;
 ?>
-		<div class='item <?php echo $active ?>' style="background-image: url(<?php echo $item['img-desktop'] ?>)">
-			<div class='carousel-caption'>
-				<h1><?php echo $item['titulo'] ?></h1>
-				<h4><?php echo $item['legenda'] ?></h4>
-				
-				<a href="<?php echo $item['link'] ?>">
-					<button type="button" class="btn btn-info btn-lg">
-						Veja mais
-					</button>
-				</a>
-			</div>
-		</div>
+			<a href="<?php echo $item['link'] ?>" class='item <?php echo $active ?>' style="background-image: url(<?php echo $item['img-desktop'] ?>)">
+				<div class='carousel-caption'>
+					<h1><?php echo $item['titulo'] ?></h1>
+					<h4><?php echo $item['legenda'] ?></h4>
+				</div>
+			</a>
 <?php
 } ?>
 		</div>

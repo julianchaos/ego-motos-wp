@@ -211,30 +211,13 @@ footer p {
 	left: 5%;
 	top: 44px;
 }
-.home-carousel .carousel-caption a {
-	position: absolute;
-	bottom: 40px;
-}
-.home-carousel .carousel-caption button {
-	padding-left: 40px;
-	padding-right: 40px;
-}
-@media (min-width: 768px) {
-	.home-carousel .carousel-caption a {
-		position: absolute;
-		bottom: 50px;
-	}
-}
+
 @media (min-width: 992px) {
 	.home-carousel {
 		margin-top: 70px;
 	}
 	.home-carousel .carousel-caption {
 		top: 88px;
-	}
-	.home-carousel .carousel-caption a {
-		position: relative;
-		bottom: 0;
 	}
 }
 @media (min-width: 1200px) {
