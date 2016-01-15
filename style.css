@@ -58,6 +58,7 @@ header {
 	height: 44px;
 	
 	position: absolute;
+	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 1;
@@ -191,6 +192,9 @@ footer p {
 
 /* HOME */
 /* Carousel */
+.home-carousel {
+	margin-top: 44px;
+}
 .home-carousel .item {
 	opacity: 1;
     transform: translateY(0px) scale(1);
@@ -222,6 +226,9 @@ footer p {
 	}
 }
 @media (min-width: 992px) {
+	.home-carousel {
+		margin-top: 70px;
+	}
 	.home-carousel .carousel-caption {
 		top: 88px;
 	}
