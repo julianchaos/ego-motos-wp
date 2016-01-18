@@ -11,7 +11,7 @@ while( have_rows('imagens_slider'))
 	$thumbnail = $imagem['sizes']['medium'];
 	$link = $imagem['url'];
 ?>
-					<a href="<?= $link ?>">
+					<a href="<?= $link ?>" target="_blank">
 						<img src="<?= $thumbnail ?>" alt="" />
 					</a>
 <?php
@@ -21,3 +21,4 @@ while( have_rows('imagens_slider'))
 		</div>
 	</div>
 </section>
+<div id="modelo-fotos-container"></div>

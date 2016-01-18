@@ -549,6 +549,16 @@ footer p {
 	right: 0;
 	background: transparent url(images/modelos-single/carousel-next.png) no-repeat 100% 50%;
 }
+#modelo-fotos-container {
+	background-color: #FFF;
+	background-size: contain;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+}
 
 /* Formulário Cotação */
 #modelo-form-cotacao .col-xs-12 > div {

@@ -41,12 +41,22 @@ jQuery(function(){
 		navText: false,
 		dots: false
 	});
-	jQuery('#modelo-fotos-carousel').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		closeOnContentClick: true,
-		closeOnBgClick: true
+	jQuery('#modelo-fotos-container').hide();
+	jQuery('#modelo-fotos-carousel a').on('click', function(e){
+		jQuery('#modelo-fotos-container').height(calculaModeloFotoContainerAltura());
+		jQuery('#modelo-fotos-container').css('background-image', "url(" + jQuery(this).attr('href') +")");
+		jQuery('#modelo-fotos-container').show();
+		
+		e.stopPropagation();
+		return false;
 	});
+	var calculaModeloFotoContainerAltura = function(){
+		var modeloHeaderPaddingTop = Number(jQuery('#modelo-header').css('padding-top').replace("px", ''));
+		var modeloHeaderHeight = Number(jQuery('#modelo-header').height());
+		var modeloAnimacaoHeight = Number(jQuery('#modelo-animacao').height());
+		
+		return modeloHeaderHeight+modeloHeaderPaddingTop+modeloAnimacaoHeight;
+	};
 	
 	//Formulário para cotação em lightbox
 	jQuery('.open-popup-link').magnificPopup({
