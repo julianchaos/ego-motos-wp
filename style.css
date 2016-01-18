@@ -54,7 +54,7 @@ Text Domain: egomotos
 
 /* HEADER */
 header {
-	background-color: #00354E;
+	/*background-color: #00354E;*/
 	height: 44px;
 	
 	position: absolute;
@@ -66,9 +66,16 @@ header {
 header .container {
 	padding: 0;
 }
+header #headerimg img {
+	display: block;
+	float: left;
+}
+header #headerimg img + img {
+	margin-left: 7px;
+}
 header #headerimg,
 header .facebook-link {
-	height: 43px;
+	height: 44px;
 	padding: 0;
 	overflow: hidden;
 }
@@ -123,7 +130,7 @@ header .navbar-collapse li a {
 	}
 	header .navbar-collapse {
 		width: auto;
-		background-color: transparent;
+		background-color: #00354E;
 		
 		top: -44px;
 		right: 44px;
@@ -148,15 +155,28 @@ header .navbar-collapse li a {
 		height: 69px;
 	}
 	header .facebook-link {
-		margin-top: 11px;
+		height: 70px;
+		width: 70px;
+		background-color: #00354E;
 	}
-	header .facebook-link,
+	
 	header .facebook-link img {
+		display: block;
 		height: 49px;
+		margin: 11px auto;
 	}
 	
 	header .navbar-collapse {
 		top: -70px;
+		right: 70px;
+		padding: 0;
+	}
+	header .navbar-collapse ul {
+		background-color: #00354E;
+		height: 70px;
+		padding-left: 15px;
+		
+		
 	}
 	.navbar-default .navbar-nav > li > a {
 		font-size: 18px;
@@ -193,7 +213,7 @@ footer p {
 /* HOME */
 /* Carousel */
 .home-carousel {
-	margin-top: 44px;
+	/*margin-top: 44px;*/
 }
 .home-carousel .item {
 	opacity: 1;
@@ -214,7 +234,7 @@ footer p {
 
 @media (min-width: 992px) {
 	.home-carousel {
-		margin-top: 70px;
+		/*margin-top: 70px;*/
 	}
 	.home-carousel .carousel-caption {
 		top: 88px;
