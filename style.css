@@ -89,7 +89,9 @@ header .facebook-link {
 header #headerimg h1 {
 	margin: 0;
 }
-header #headerimg img {
+
+body.single-modelo header #headerimg img,
+body.page-template-page-novidades header #headerimg img {
 	border: 1px solid #2c3b42;
 	border-top-width: 0;
 }
