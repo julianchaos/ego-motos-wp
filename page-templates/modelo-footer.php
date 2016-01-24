@@ -7,7 +7,7 @@ $tipoMoto = array(
 	'scooter' => 'Scooter'
 );
 ?>
-<section id="modelo-footer">
+<section id="modelo-footer" class="init-hide">
 	<div class="container">
 		<div class="row">
 			<div id="modelo-footer-links" class="col-xs-12 col-md-4">

@@ -1,4 +1,4 @@
-<section id="ego-motos-content">
+<section id="ego-motos-content" class="init-hide">
 	<div class='container'>
 		<div class='row'>
 			<div class='col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3'>

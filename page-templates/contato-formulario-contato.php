@@ -1,4 +1,4 @@
-<section id="contato-formulario-contato">
+<section id="contato-formulario-contato" class="init-hide">
 	<div class="container">
 		<div class="row">
 			<h2>Formulário de <span>Contato</span></h2>

@@ -1,4 +1,4 @@
-<section id="modelos-content">
+<section id="modelos-content" class="init-hide">
 <?php
 
 //Super Sport

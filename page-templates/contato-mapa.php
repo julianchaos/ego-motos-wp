@@ -1,4 +1,4 @@
-<section id="contato-mapa" class="visible-lg">
+<section id="contato-mapa" class="visible-lg" class="init-hide"> 
 	<div id="contato-mapa-botafogo" class="contato-mapa">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.8712350100773!2d-43.18493578562368!3d-22.954968845361623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ffb1c608abb%3A0xbe6d7d570cc45f87!2sR.+Arnaldo+Quintela%2C+56+-+Botafogo%2C+Rio+de+Janeiro+-+RJ%2C+22280-070!5e0!3m2!1spt-BR!2sbr!4v1450035851065" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 		<h2>Ego Botafogo</h2>

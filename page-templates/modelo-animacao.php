@@ -1,4 +1,4 @@
-<section id="modelo-animacao">
+<section id="modelo-animacao" class="init-hide">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">

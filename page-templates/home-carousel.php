@@ -19,7 +19,7 @@ while($query->have_posts())
 }
 
 ?>
-<section class="home-carousel">
+<section class="home-carousel page-featured-image">
 	<div id="carousel-main" class="carousel slide" data-ride="carousel">
 		
 		<!-- Indicators -->

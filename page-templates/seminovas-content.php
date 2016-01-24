@@ -1,4 +1,4 @@
-<section id="seminovas-content">
+<section id="seminovas-content" class="init-hide">
 	<div class="container">
 		<div class="row">
 			<div class="estoque-botafogo col-xs-12 col-sm-6 col-md-5 col-md-offset-1">

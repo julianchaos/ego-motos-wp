@@ -1,4 +1,4 @@
-<section id="modelo-ficha-tecnica">
+<section id="modelo-ficha-tecnica" class="init-hide">
 	<div class="container">
 		<div class="row">
 			<h3>Ficha Técnica</h3>
