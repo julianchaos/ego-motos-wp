@@ -175,10 +175,6 @@ header .navbar-collapse li a {
 	header #headerimg img {
 		height: 70px;
 	}
-	header #headerimg,
-	header #headerimg img {
-		height: 69px;
-	}
 	header .facebook-link {
 		height: 70px;
 		width: 70px;
