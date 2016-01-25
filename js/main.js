@@ -4,8 +4,9 @@ jQuery(function(){
 		if(jQuery('.page-featured-image').length > 0)
 		{
 			jQuery('.page-featured-image + section').css('margin-top', '');
-			var elementDefaultTopMargin = jQuery('.page-featured-image + section').css('margin-top').replace('px', '');
-			var elementNewTopMargin = Number(jQuery('.page-featured-image').height())+Number(elementDefaultTopMargin);
+			var elementDefaultTopMargin = Number(jQuery('.page-featured-image + section').css('margin-top').replace('px', ''));
+			var pageFeaturedImageTop = Number(jQuery('.page-featured-image').css('top').replace('px',''));
+			var elementNewTopMargin = Number(jQuery('.page-featured-image').height())+elementDefaultTopMargin+pageFeaturedImageTop;
 			jQuery('.page-featured-image + section').css('margin-top', elementNewTopMargin);
 		}
 	};
