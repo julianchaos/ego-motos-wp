@@ -824,6 +824,9 @@ footer p {
 	margin-top: 5px;
 	border-left: 5px solid #999;
 }
+#modelo-footer #modelo-footer-local > div a {
+	color: #FFF;
+}
 #modelo-footer #modelo-footer-local > div.super-sport {
 	border-color: #28324e;
 }

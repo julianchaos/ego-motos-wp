@@ -18,8 +18,8 @@ $tipoMoto = array(
 			</div>
 			<div id="modelo-footer-local" class="col-xs-12 col-md-7 col-md-offset-1">
 				<div>Você Está em</div>
-				<div>Modelo</div>
-				<div><?= $tipoMoto[get_field('tipo_de_moto')] ?></div>
+				<div><a href="<?php echo esc_url(home_url('modelos')) ?>">Modelos</a></div>
+				<div><a href="<?php echo esc_url(home_url('modelos/#' . get_field('tipo_de_moto'))) ?>"><?= $tipoMoto[get_field('tipo_de_moto')] ?></a></div>
 				<div class="<?php the_field('tipo_de_moto') ?>"><?php the_title() ?></div>
 			</div>
 		</div>
