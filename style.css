@@ -252,28 +252,6 @@ footer p {
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
-.home-carousel .carousel-caption {
-	font-family: 'BebasNeue';
-	text-align: left;
-	
-	right: 5%;
-	left: 5%;
-	top: 44px;
-}
-
-@media (min-width: 992px) {
-	.home-carousel .carousel-caption {
-		top: 88px;
-	}
-}
-@media (min-width: 1200px) {
-	.home-carousel .carousel-caption h1{
-		font-size: 42px;
-	}
-	.home-carousel .carousel-caption h4{
-		font-size: 22px;
-	}
-}
 
 /* Content */
 #home-content .moto {
