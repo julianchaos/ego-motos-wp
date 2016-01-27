@@ -19,7 +19,7 @@ while($query->have_posts())
 }
 
 ?>
-<section class="home-carousel page-featured-image">
+<section class="home-carousel">
 	<div id="carousel-main" class="carousel slide" data-ride="carousel">
 		
 		<!-- Indicators -->
@@ -39,8 +39,8 @@ foreach($sliderItens as $i => $item)
 {
 	$active = $i === 0 ? "active" : null;
 ?>
-			<a href="<?php echo $item['link'] ?>" class='item <?php echo $active ?>' style="background-image: url(<?php echo $item['img-desktop'] ?>)">
-				
+			<a href="<?php echo $item['link'] ?>" class='item <?php echo $active ?>' >
+				<img src="<?php echo $item['img-desktop'] ?>" class="img-desktop" alt="" />
 			</a>
 <?php
 } ?>
