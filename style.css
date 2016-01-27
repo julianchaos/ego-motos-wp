@@ -236,7 +236,7 @@ footer p {
 /* Carousel */
 .home-carousel {
 	position: absolute;
-	top: 44px;
+	top: 0;
 	bottom: 20%;
 	width: 100%;
 }
@@ -262,9 +262,6 @@ footer p {
 }
 
 @media (min-width: 992px) {
-	.home-carousel {
-		top: 70px;
-	}
 	.home-carousel .carousel-caption {
 		top: 88px;
 	}
