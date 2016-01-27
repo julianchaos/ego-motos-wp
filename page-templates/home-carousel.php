@@ -40,6 +40,7 @@ foreach($sliderItens as $i => $item)
 	$active = $i === 0 ? "active" : null;
 ?>
 			<a href="<?php echo $item['link'] ?>" class='item <?php echo $active ?>' >
+				<img src="<?php echo $item['img-mobile'] ?>" class="img-mobile" alt="" />
 				<img src="<?php echo $item['img-desktop'] ?>" class="img-desktop" alt="" />
 			</a>
 <?php

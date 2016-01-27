@@ -1,6 +1,20 @@
 jQuery(function(){
 	//Control window resizes
+	var carouselResize = function()
+	{
+		if(jQuery(window).width() < jQuery(window).height()) {
+			jQuery('.img-desktop').hide();
+			jQuery('.img-mobile').show();
+		} else {
+			jQuery('.img-mobile').hide();
+			jQuery('.img-desktop').show();
+		}
+	}
 	var pageFeaturedImageResize = function(){
+		if(jQuery('.home-carousel').length > 0)
+		{
+			carouselResize();
+		}
 		if(jQuery('.page-featured-image').length > 0)
 		{
 			jQuery('.page-featured-image + section').css('margin-top', '');
