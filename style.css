@@ -1351,3 +1351,82 @@ body.page-template-page-contato footer {
 		width: 265px;
 	}
 }
+
+/* PEÇAS */
+/* Content */
+#pecas-content p {
+	font-family: 'Roboto-Regular';
+	color: #4e5658;
+	font-size: 16px;
+}
+
+/* Form */
+#pecas-form {
+	margin-top: 12px;
+}
+#pecas-form form {
+	border-top: 6px solid #99a5a6;
+}
+#pecas-form form span.wpcf7-form-control-wrap {
+	display: block;
+}
+#pecas-form form span.wpcf7-form-control-wrap input,
+#pecas-form form span.wpcf7-form-control-wrap textarea {
+	width: 100%;
+}
+#pecas-form form .info-veiculo label:nth-of-type(2) {
+	padding-right: 15px;
+	float: left;
+}
+#pecas-form form .info-veiculo label:nth-of-type(2), 
+#pecas-form form .info-veiculo label:nth-of-type(3) {
+	width: 50%;
+}
+#pecas-form form input[type=submit] {
+	background-color: #3f67c0;
+	border: 0 solid #FFF;
+	color: #FFF;
+	font-size: 18px;
+	padding: 4px 22px;
+	text-transform: uppercase;
+}#pecas-form form {
+	border-top: 6px solid #99a5a6;
+}
+
+@media (min-width: 768px) {
+	#pecas-form form .info-veiculo label:nth-of-type(1) {
+		float: left;
+		width: 33.33%;
+		padding-right: 15px;
+	}
+	#pecas-form form .info-veiculo label:nth-of-type(2),
+	#pecas-form form .info-veiculo label:nth-of-type(3) {
+		width: 16.66666667%;
+		padding-right: 15px;
+	}
+	#pecas-form form .info-veiculo label:nth-of-type(4) {
+		width: 33.33%;
+	}
+	
+	#pecas-form form .info-pessoal label {
+		padding-right: 15px;
+		width: 33.33%;
+	}
+	#pecas-form form .info-pessoal label:nth-of-type(3) {
+		width: 66.66%;
+	}
+}
+
+@media (min-width: 992px) {
+	#pecas-form form {
+		border-top-width: 0;
+		/*: 6px solid #99a5a6;*/
+	}
+	#pecas-form {
+		border-left: 6px solid #99a5a6;
+		margin-top: 0;
+	}
+	#pecas-form .info-veiculo h3 {
+		margin-top: 0;
+	}
+}
