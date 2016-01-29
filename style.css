@@ -1354,11 +1354,15 @@ body.page-template-page-contato footer {
 
 /* PEÇAS */
 /* Content */
+#pecas-content {
+	margin-top: 15px;
+}
 #pecas-content p {
 	font-family: 'Roboto-Regular';
 	color: #4e5658;
 	font-size: 16px;
 }
+
 
 /* Form */
 #pecas-form {
@@ -1418,9 +1422,11 @@ body.page-template-page-contato footer {
 }
 
 @media (min-width: 992px) {
+	#pecas-content {
+		margin-top: 100px;
+	}
 	#pecas-form form {
 		border-top-width: 0;
-		/*: 6px solid #99a5a6;*/
 	}
 	#pecas-form {
 		border-left: 6px solid #99a5a6;
