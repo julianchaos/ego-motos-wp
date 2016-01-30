@@ -8,7 +8,8 @@ while( have_rows('imagens_slider'))
 {
 	the_row();
 	$imagem = get_sub_field('imagem');
-	$thumbnail = $imagem['sizes']['medium'];
+	$thumbnail = $imagem['sizes']['modelo-thumbnail'];
+	$thumbnailWidth = $imagem['sizes']['modelo-thumbnail-width'];
 	$link = $imagem['url'];
 ?>
 					<a href="<?= $link ?>" target="_blank">
