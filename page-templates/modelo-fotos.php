@@ -1,8 +1,4 @@
-<section id="modelo-fotos" class="init-hide">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<div id="modelo-fotos-carousel">
+<div id="modelo-fotos-carousel">
 <?php
 while( have_rows('imagens_slider'))
 {
@@ -12,14 +8,8 @@ while( have_rows('imagens_slider'))
 	$thumbnailWidth = $imagem['sizes']['modelo-thumbnail-width'];
 	$link = $imagem['url'];
 ?>
-					<a href="<?= $link ?>" target="_blank">
-						<img src="<?= $thumbnail ?>" alt="" />
-					</a>
+					<img class="item" src="<?= $thumbnail ?>" alt="" style="width: <?php echo $thumbnailWidth ?>px" data-url="<?php echo $link ?>"  />
 <?php
 } ?>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+</div>
 <div id="modelo-fotos-container"></div>

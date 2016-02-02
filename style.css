@@ -516,7 +516,8 @@ footer p {
 	margin-left: 38px;
 	margin-right: 38px;
 }
-#modelo-fotos-carousel .owl-stage-outer a > img {
+#modelo-fotos-carousel .owl-stage-outer img.item {
+	cursor: pointer;
 	max-height: 55px;
 	width: auto;
 }

@@ -38,7 +38,7 @@ jQuery(function(){
 	
 	//Carrossel de imagens na página single de modelos
 	jQuery('#modelo-fotos-carousel').owlCarousel({
-		items: 5,
+		items: 2,
 		margin: 5,
 		loop: true,
 		autoWidth: true,
@@ -47,9 +47,11 @@ jQuery(function(){
 		dots: false
 	});
 	jQuery('#modelo-fotos-container').hide();
-	jQuery('#modelo-fotos-carousel a').on('click', function(e){
+	jQuery('#modelo-fotos-carousel img.item').on('click', function(e){
+		console.log('item');
 		jQuery('#modelo-fotos-container').height(calculaModeloFotoContainerAltura());
-		jQuery('#modelo-fotos-container').css('background-image', "url(" + jQuery(this).attr('href') +")");
+		console.log(jQuery(this).attr('data-url'));
+		jQuery('#modelo-fotos-container').css('background-image', "url(" + jQuery(this).attr('data-url') +")");
 		jQuery('#modelo-fotos-container').show();
 		
 		e.stopPropagation();
