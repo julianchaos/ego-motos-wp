@@ -81,9 +81,9 @@ jQuery(function(){
 		
 		percentPosition: true
 	});
-//	$grid.imagesLoaded().progress( function() {
-//		$grid.masonry('layout');
-//	});
+	$grid.imagesLoaded().progress( function() {
+		$grid.masonry('layout');
+	});
 	
 	// Fade in de todos os elementos inicialmente invisíveis
 	jQuery('.init-hide').fadeIn();

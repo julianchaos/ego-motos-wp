@@ -46,6 +46,7 @@ function egomotos_scripts_styles() {
 	 * url: http://masonry.desandro.com/
 	 */
 	wp_enqueue_script( 'egomotos-masonry', get_template_directory_uri() . "/js/Masonry/masonry.pkgd.min.js", array('jquery'), '3.3.2' );
+	wp_enqueue_script( 'egomotos-imagesloaded', get_template_directory_uri() . "/js/Masonry/imagesloaded.pkgd.min.js", array('jquery', 'egomotos-masonry'), '4.1.0' );
 
 	//Navbar-default overide
 	wp_enqueue_style( 'egomotos-nav', get_template_directory_uri() . '/css/navbar-default.css', array('egomotos-bootstrap'), '1.0');
