@@ -832,7 +832,7 @@ footer p {
 	margin: 65px 5px 5px;
 	text-align: center;
 	line-height: 35px;
-	font-size: 35px;
+	font-size: 27px;
 	
 	max-width: 368px;
 }
@@ -852,7 +852,7 @@ footer p {
 }
 @media (min-width: 992px) {
 	.page-template-page-seminovas #general-header > div > div {
-		font-size: 50px;
+		font-size: 38px;
 		max-width: 520px;
 	}
 	.page-template-page-seminovas #general-header > div > div span {
