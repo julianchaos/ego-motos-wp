@@ -892,7 +892,7 @@ footer p {
 	color: #868686;
 	font-style: italic;
 	text-transform: uppercase;
-	line-height: 1em;
+	line-height: 1.1em;
 	
 	display: block;
 	width: 185px;
@@ -902,6 +902,7 @@ footer p {
 	font-family: 'Oswald-Light';
 	font-size: 16.11px;
 	margin-top: 15px;
+	margin-bottom: 2px;
 }
 #seminovas-content .seminova-info .valor {
 	font-family: 'Oswald-Regular';
