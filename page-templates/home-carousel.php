@@ -9,13 +9,23 @@ while($query->have_posts())
 {
 	$query->the_post();
 	
-	$sliderItens[] = array(
+	$banner = array(
 		'titulo' => get_the_title(),
 		'legenda' => get_field('legenda'),
 		'link' => get_field('link'),
 		'img-mobile' => get_field('imagem_mobile'),
-		'img-desktop' => get_field('imagem_desktop')
+		'img-desktop' => get_field('imagem_desktop'),
+		'half-width' => false
 	);
+	if(get_field('imagem_com_dois_links'))
+	{
+		$banner['half-width'] = true;
+		$banner['link-2'] = get_field('link_2');
+		$banner['img-mobile-2'] = get_field('imagem_mobile_2');
+		$banner['img-desktop-2'] = get_field('imagem_desktop_2');
+	}
+	
+	$sliderItens[] = $banner;
 }
 
 ?>
@@ -39,10 +49,24 @@ foreach($sliderItens as $i => $item)
 {
 	$active = $i === 0 ? "active" : null;
 ?>
-			<a href="<?php echo $item['link'] ?>" class='item <?php echo $active ?>' >
-				<img src="<?php echo $item['img-mobile'] ?>" class="img-mobile" alt="" />
-				<img src="<?php echo $item['img-desktop'] ?>" class="img-desktop" alt="" />
-			</a>
+			
+			<div class="item <?php echo $active ?>">
+				<a href="<?php echo $item['link'] ?>" class="<?php echo ($item['half-width'] ? 'half-width' : null) ?>">
+					<img src="<?php echo $item['img-mobile'] ?>" class="img-mobile" alt="" />
+					<img src="<?php echo $item['img-desktop'] ?>" class="img-desktop" alt="" />
+				</a>
+<?php
+	if($item['half-width'])
+	{
+?>
+				<a href="<?php echo $item['link-2'] ?>" class="half-width">
+					<img src="<?php echo $item['img-mobile-2'] ?>" class="img-mobile" alt="" />
+					<img src="<?php echo $item['img-desktop-2'] ?>" class="img-desktop" alt="" />
+				</a>
+<?php
+	}
+?>
+			</div>
 <?php
 } ?>
 		</div>

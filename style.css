@@ -234,6 +234,14 @@ footer p {
 
 /* HOME */
 /* Carousel */
+.home-carousel .item a {
+	display: inline-block;
+	width: 100%;
+}
+.home-carousel .item a.half-width {
+	width: 50%;
+	float: left;
+}
 .home-carousel .item img {
 	display: block;
 	height: auto;

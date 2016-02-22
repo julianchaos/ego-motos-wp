@@ -1,4 +1,5 @@
 <?php require_once 'custom-post-type.php' ?>
+<?php require_once 'custom-field.php' ?>
 <?php
 function register_my_menu() {
 	register_nav_menu( 'primary', 'Menu do cabeçalho' );
